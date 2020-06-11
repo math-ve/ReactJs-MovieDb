@@ -223,6 +223,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .companies-logo {
@@ -416,5 +417,83 @@
     .movie-page-poster {
         max-height: 100%;
         max-width: 100%;
+    }
+
+    .movie-page-title {
+        font-size: 28px;
+    }
+
+    .movie-main-infos p {
+        font-size: 22px;
+    }
+
+    .movie-overview-container h2 {
+        font-size: 30px;
+    }
+
+    .movie-overview-container p {
+        font-size: 24px;
+    }
+
+    .movie-trailer-container {
+        height: 500px;
+    }
+
+    .movie-trailer {
+        height: 500px;
+    }
+
+    .movie-backdrop {
+        max-width: 500px;
+        max-height: 100%;
+    }
+
+    .movie-genres-container {
+        width: 500px;
+    }
+
+    .movie-genres p {
+        font-size: 25px;
+    }
+
+    .movie-website-container {
+        width: 230px;
+    }
+
+    .website-logo {
+        max-width: 40px;
+    }
+
+    .movie-website-link {
+        font-size: 23px;
+    }
+
+    .movie-economics-title {
+        font-size: 24px;
+    }
+
+    .movie-economics-number {
+        font-size: 22px;
+    }
+
+    .movie-production-countries-container h2 {
+        font-size: 24px;
+    }
+
+    .movie-production-countries p {
+        font-size: 22px;
+    }
+
+    .movie-production-companies-container h2 {
+        font-size: 24px;
+    }
+
+    .movie-production-companies {
+        width: 100%;
+        height: 200px;
+    }
+
+    .companies-logo {
+        width: 40%;
     }
 }

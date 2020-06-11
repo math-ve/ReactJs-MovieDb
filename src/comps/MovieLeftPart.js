@@ -27,7 +27,7 @@ const MovieLeftPart = (props) => {
         else
             setVote("missing");
         if (data.poster_path)
-            setPoster(`https://image.tmdb.org/t/p/w400/${data.poster_path}`);
+            setPoster(`https://image.tmdb.org/t/p/w500/${data.poster_path}`);
         else
             setPoster('/assets/noPhotoFound.png');
     }

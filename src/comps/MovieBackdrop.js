@@ -17,7 +17,7 @@ const MovieBackdrop = (props) => {
 
     if (backdrop !== undefined)
         return (
-            <img alt="movie-backdrop" src={`https://image.tmdb.org/t/p/w400/${backdrop}`} className="movie-backdrop" />
+            <img alt="movie-backdrop" src={`https://image.tmdb.org/t/p/w500/${backdrop}`} className="movie-backdrop" />
         )
     else
         return (
