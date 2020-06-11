@@ -63,3 +63,14 @@
         font-weight: 500;
     }
 }
+
+@media screen and (min-width: 2550px)
+{
+    .logo-container {
+        font-size: 30px;
+    }
+    
+    .nav-item {
+        font-size: 25px;
+    }
+}

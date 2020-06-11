@@ -409,6 +409,12 @@
     .companies-logo {
         max-width: 30%;
     }
-
 }
 
+
+@media screen and (min-width: 2550px) {
+    .movie-page-poster {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

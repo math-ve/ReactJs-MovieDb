@@ -32,7 +32,7 @@ const ResultItem = (props) => {
         return (
             <div key={movie.id} id={movie.id} className="result-item" onClick={() => handleClick(movie.id)}>
                 <div className="movie-poster-container">
-                    <img alt={`trailer movie ${movie.id}`} src={`https://image.tmdb.org/t/p/w300/${movie.poster_path}`} className="movie-poster-img" />
+                    <img alt={`trailer movie ${movie.id}`} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className="movie-poster-img" />
                 </div>
                 <p className="movie-title">{movie.title}</p>
             </div>
